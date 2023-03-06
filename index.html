@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Griglia Campo Minato</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <!-- /Google Fonts -->
+    <!-- Css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- /Css -->
+</head>
+<body>
+    <!-- Header -->
+    <header class="d-flex jc-spbetween">
+        <div class="col-left d-flex">
+            <img src="img/logo-boolean.png" alt="">
+            <p>Campo Minato</p>
+        </div>
+        <div class="col-right">
+            <label for="gamemode">Livello</label>
+            <select name="" id="gamemode">
+                <option value="easy" id="easy">Easy</option>
+                <option value="medium" id="medium">Medium</option>
+                <option value="hard" id="hard">Hard</option>
+            </select>
+            <button id="difficolta">Play</button>
+        </div>
+    </header>
+    <!-- /Header -->
+    <!-- Main -->
+    <main class="d-flex">
+        <div class="board d-flex"></div>
+    </main>
+    <!-- /Main -->
+    <!-- Footer -->
+    <footer class="d-flex jc-spbetween"> 
+        <div class="col-left">
+            <p>Made with &#x2764; by <span><a href="">Boolean</a></span></p>
+        </div>
+        <div class="col-center"></div>
+    </footer>
+    <!-- /Footer -->
+    
+    <script src="js/main.js"></script>
+</body>
+</html>

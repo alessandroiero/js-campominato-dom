@@ -1,0 +1,111 @@
+/* Reset */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Typo */
+
+
+/* Common */
+.d-flex{
+    display: flex;
+}
+
+.jc-spbetween{
+    justify-content: space-between;
+}
+
+/* Body */
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+
+header,footer{
+    padding: .625rem .625rem;
+}
+/* Header */
+header{
+    align-items: center;
+}
+header .col-left img{
+    width:10%;
+}
+
+header .col-left{
+    align-items: center;
+    gap: 1.5625rem;
+}
+
+header .col-left p{
+    font-size: 2.1875rem;
+    font-weight: bold;
+}
+
+/* Main */
+main{
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    background-color: #7fffd4;
+}
+
+.board{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.easy{
+    width: 800px;
+    height: 800px;
+    flex-wrap: wrap;
+}
+
+.medium{
+    width: 720px;
+    height: 720px;
+    flex-wrap: wrap;
+}
+
+.hard{
+    width: 560px;
+    height: 560px;
+    flex-wrap: wrap;
+}
+
+.cell{
+    width: 80px;
+    height: 80px;
+    border: 2px solid black;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.selected{
+    background-color: aqua;
+    transition: 1s;
+}
+
+#difficolta{
+    padding: 0 20px ;
+}
+.red{
+    background-color: red;
+}
+
+/* Footer */
+footer{
+    align-items: center;
+}
+footer .col-center{
+    border: 2px solid black;
+    border-radius: 3.125rem;
+    background-color: #7fffd4;
+    padding: 1.25rem;
+}
