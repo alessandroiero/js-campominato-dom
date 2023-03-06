@@ -81,7 +81,7 @@ pressHere.addEventListener('click', function () {
             myCreateElement(containerBoard, i, punteggioMax)
             containerBoard.className = 'easy d-flex';
         }
-        for (let i=1; arrayBombs.length < 16; i++) {
+        while (arrayBombs.length < 16) {
             const randomBomb = randomNumber(1, 100);
             if (!(arrayBombs == randomBomb)) {
                 arrayBombs.push(randomBomb);
@@ -93,7 +93,7 @@ pressHere.addEventListener('click', function () {
             myCreateElement(containerBoard, i, punteggioMax)
             containerBoard.className = 'medium d-flex';
         }
-        for (let i=1; arrayBombs.length < 16; i++) {
+        while (arrayBombs.length < 16) {
             const randomBomb = randomNumber(1, 81);
             if (!(arrayBombs == randomBomb)) {
                 arrayBombs.push(randomBomb);
@@ -105,7 +105,7 @@ pressHere.addEventListener('click', function () {
             myCreateElement(containerBoard, i, punteggioMax)
             containerBoard.className = 'hard d-flex';
         }
-        for (let i=1; arrayBombs.length < 16; i++) {
+        while (arrayBombs.length < 16) {
             const randomBomb = randomNumber(1, 49);
             if (!(arrayBombs == randomBomb)) {
                 arrayBombs.push(randomBomb);
